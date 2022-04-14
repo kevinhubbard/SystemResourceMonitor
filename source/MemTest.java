@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.concurrent.*;
 import java.util.*;
-
+	
 public class MemTest {
 	
 	public static void main(String[] args) {
@@ -9,7 +9,6 @@ public class MemTest {
 		ThreadtestTwo t2 = new ThreadtestTwo();
 		t.start();
 		t2.start();
-		System.out.println("DONE");
 	}
 }
 
