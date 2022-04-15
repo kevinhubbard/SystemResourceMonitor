@@ -11,16 +11,3 @@ public class MemTest {
 		t2.start();
 	}
 }
-
-
-
-/*
-
-ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
-exec.scheduleAtFixedRate(new Runnable() {
-  @Override
-  public void run() {
-    // do stuff
-    System.out.println("farts");
-  }
-}, 0, 5, TimeUnit.SECONDS);	 */
